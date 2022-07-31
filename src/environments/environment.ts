@@ -2,8 +2,18 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+import { TicketMockService, TicketService } from '../app/subscription/services';
+
 export const environment = {
-  production: false
+  production: false,
+  providers: [
+    {
+      provide: TicketService,
+      useFactory: () => {
+        return new TicketMockService();
+      },
+    },
+  ],
 };
 
 /*

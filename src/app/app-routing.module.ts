@@ -1,18 +1,23 @@
-import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ProfileComponent } from './profile/profile.component';
+import { NgModule } from '@angular/core';
 
 const routes: Routes = [
-  { path: ':username', component: ProfileComponent }
+  {
+    path: '',
+    loadChildren: () =>
+      import('./subscription/subscription.module').then(
+        (m) => m.SubscriptionModule
+      ),
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {
-    initialNavigation: 'enabledBlocking'
-})],
+  imports: [
+    RouterModule.forRoot(routes, {
+      initialNavigation: 'enabledBlocking',
+    }),
+  ],
   exports: [RouterModule],
-  declarations: [
-    ProfileComponent
-  ]
+  declarations: [],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -1,0 +1,99 @@
+<svg width="722" height="363" viewBox="0 0 722 363" fill="none" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="ticket">
+    <g id="Group 48095617">
+      <g id="Group 48095322">
+        <g id="Subtract">
+          <mask id="path-1-outside-1_74_6693" maskUnits="userSpaceOnUse" x="0" y="0" width="716" height="363"
+            fill="black">
+            <rect fill="white" width="716" height="363" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M6 28C6 15.8497 15.8497 6 28 6H688C700.15 6 710 15.8497 710 28V131.028C688.057 137.32 672 157.535 672 181.5C672 205.465 688.057 225.68 710 231.972V335C710 347.15 700.15 357 688 357H28C15.8497 357 6 347.15 6 335V229.41C24.2745 221.196 37 202.834 37 181.5C37 160.166 24.2745 141.804 6 133.59V28Z" />
+          </mask>
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M6 28C6 15.8497 15.8497 6 28 6H688C700.15 6 710 15.8497 710 28V131.028C688.057 137.32 672 157.535 672 181.5C672 205.465 688.057 225.68 710 231.972V335C710 347.15 700.15 357 688 357H28C15.8497 357 6 347.15 6 335V229.41C24.2745 221.196 37 202.834 37 181.5C37 160.166 24.2745 141.804 6 133.59V28Z"
+            fill="#212134" />
+          <path
+            d="M710 131.028L711.654 136.796L716 135.549V131.028H710ZM710 231.972H716V227.451L711.654 226.204L710 231.972ZM6 229.41L3.5403 223.937L0 225.529V229.41H6ZM6 133.59H0V137.471L3.5403 139.063L6 133.59ZM28 0C12.536 0 0 12.536 0 28H12C12 19.1634 19.1634 12 28 12V0ZM688 0H28V12H688V0ZM716 28C716 12.536 703.464 0 688 0V12C696.837 12 704 19.1634 704 28H716ZM716 131.028V28H704V131.028H716ZM678 181.5C678 160.283 692.215 142.37 711.654 136.796L708.346 125.26C683.899 132.271 666 154.787 666 181.5H678ZM711.654 226.204C692.215 220.63 678 202.717 678 181.5H666C666 208.213 683.899 230.729 708.346 237.74L711.654 226.204ZM716 335V231.972H704V335H716ZM688 363C703.464 363 716 350.464 716 335H704C704 343.837 696.837 351 688 351V363ZM28 363H688V351H28V363ZM0 335C0 350.464 12.536 363 28 363V351C19.1634 351 12 343.837 12 335H0ZM0 229.41V335H12V229.41H0ZM31 181.5C31 200.387 19.7394 216.657 3.5403 223.937L8.4597 234.883C28.8097 225.736 43 205.282 43 181.5H31ZM3.5403 139.063C19.7394 146.343 31 162.613 31 181.5H43C43 157.718 28.8097 137.264 8.4597 128.117L3.5403 139.063ZM0 28V133.59H12V28H0Z"
+            fill="url(#paint0_linear_74_6693)" mask="url(#path-1-outside-1_74_6693)" />
+        </g>
+        <path id="Vector 139" d="M564 10.5V352" stroke="#4A4A6A" stroke-width="3" stroke-dasharray="6 6" />
+        <text id="N&#194;&#176; 00001" transform="translate(651 77) rotate(90)" fill="white" xml:space="preserve"
+          style="white-space: pre" font-family="Poppins" font-size="40" font-weight="bold" letter-spacing="0.105em">
+          <tspan x="0.0578156" y="44">N&#xb0; 00001</tspan>
+        </text>
+      </g>
+      <g id="Frame 48095429">
+
+        <g id="22 de outubro de 2022">
+          <text fill="#7E7E97" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="22"
+            font-weight="600" letter-spacing="2px">
+            <tspan x="140.601" y="309.2">de</tspan>
+            <tspan x="291.056" y="309.2">de</tspan>
+          </text>
+          <text fill="#C0C0CF" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="22"
+            font-weight="600" letter-spacing="2px">
+            <tspan x="133.358" y="309.2"> </tspan>
+            <tspan x="173.089" y="309.2"> </tspan>
+            <tspan x="283.813" y="309.2"> </tspan>
+            <tspan x="323.544" y="309.2"> </tspan>
+          </text>
+          <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="22"
+            font-weight="600" letter-spacing="2px">
+            <tspan x="104.093" y="309.2">22</tspan>
+            <tspan x="180.331" y="309.2">outubro</tspan>
+            <tspan x="330.786" y="309.2">2022</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group 48095426">
+        <g id="Frame 48095427">
+          <text id="Nome da pessoa" fill="white" xml:space="preserve" style="white-space: pre" font-family="Poppins"
+            font-size="22" font-weight="600" letter-spacing="0em">
+            <tspan x="187" y="80.2">Nome da pessoa</tspan>
+          </text>
+          <g id="Group 48095428">
+            <g id="github.com/Developerparana">
+              <text fill="#7E7E97" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="20"
+                letter-spacing="0em">
+                <tspan x="223" y="122">github.com/</tspan>
+              </text>
+              <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="20"
+                letter-spacing="0em">
+                <tspan x="347.082" y="122">developerparana</tspan>
+              </text>
+            </g>
+            <path id="Github" fill-rule="evenodd" clip-rule="evenodd"
+              d="M198.999 103.5C192.373 103.5 187 108.894 187 115.548C187 120.87 190.438 125.386 195.207 126.979C195.807 127.09 196.026 126.718 196.026 126.399C196.026 126.113 196.016 125.355 196.01 124.35C192.671 125.078 191.967 122.735 191.967 122.735C191.422 121.343 190.635 120.973 190.635 120.973C189.546 120.225 190.718 120.24 190.718 120.24C191.921 120.325 192.555 121.482 192.555 121.482C193.626 123.323 195.364 122.791 196.048 122.482C196.157 121.704 196.467 121.173 196.81 120.872C194.145 120.568 191.344 119.535 191.344 114.918C191.344 113.603 191.811 112.527 192.579 111.685C192.456 111.38 192.044 110.156 192.696 108.497C192.696 108.497 193.704 108.173 195.996 109.732C196.954 109.464 197.98 109.331 199.001 109.326C200.02 109.331 201.047 109.464 202.005 109.732C204.296 108.173 205.302 108.497 205.302 108.497C205.956 110.156 205.544 111.38 205.421 111.685C206.19 112.527 206.655 113.603 206.655 114.918C206.655 119.546 203.849 120.565 201.176 120.863C201.606 121.235 201.99 121.97 201.99 123.094C201.99 124.704 201.975 126.003 201.975 126.399C201.975 126.721 202.191 127.096 202.8 126.978C207.565 125.381 211 120.869 211 115.548C211 108.894 205.627 103.5 198.999 103.5Z"
+              fill="white" />
+          </g>
+        </g>
+        <rect id="Rectangle 39334" x="80" y="46" width="92" height="92" rx="46" fill="url(#pattern0)"
+          stroke="url(#paint1_linear_74_6693)" stroke-width="4" />
+      </g>
+    </g>
+  </g>
+  <defs>
+    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use href="#image0_74_6693" transform="scale(0.002)" />
+    </pattern>
+    <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use href="#devpr-conf-image" transform="scale(0.002)" />
+    </pattern>
+    <linearGradient id="paint0_linear_74_6693" x1="583.5" y1="6.00001" x2="23.5" y2="217.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36CC69" />
+      <stop offset="0.54634" stop-color="#4BFFB3" />
+      <stop offset="1" stop-color="#2DC27A" />
+    </linearGradient>
+    <linearGradient id="paint1_linear_74_6693" x1="126" y1="46" x2="126" y2="138" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151524" />
+      <stop offset="1" stop-color="#212134" />
+    </linearGradient>
+    <clipPath id="clip0_74_6693">
+      <rect width="349" height="104" fill="white" transform="translate(72 181)" />
+    </clipPath>
+    <image id="image0_74_6693" data-name="avatar.svg" width="500" height="500" href="./avatar.svg" />
+    <image id="devpr-conf-image" data-name="devpr-conf.svg" width="349" height="87" href="./devpr-conf.svg" />
+  </defs>
+</svg>
