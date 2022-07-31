@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { SubscriptionRoutingModule } from './subscription-routing.module';
+import { SubscriptionRouting } from './subscription-routing';
 import { TicketComponent } from './components';
+import { SubscribeComponent } from './components/subscribe/subscribe.component';
 
 @NgModule({
-  declarations: [TicketComponent],
-  imports: [CommonModule, SubscriptionRoutingModule],
+  declarations: [TicketComponent, SubscribeComponent],
+  imports: [CommonModule, SubscriptionRouting],
 })
 export class SubscriptionModule {}

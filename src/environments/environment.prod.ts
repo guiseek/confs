@@ -6,9 +6,6 @@ export const environment = {
   providers: [
     {
       provide: TicketService,
-      // useFactory: () => {
-      //   return new TicketMockService();
-      // },
       useFactory: (http: HttpClient) => {
         return new TicketProdService(http);
       },
