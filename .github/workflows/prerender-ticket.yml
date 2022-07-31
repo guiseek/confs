@@ -1,0 +1,11 @@
+name: prerender-ticket-payload-action
+on: repository_dispatch
+jobs:
+  ticket:
+    name: Prerender Ticket
+    if: github.event.action == 'prerender-ticket'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: npm run build:ssr
+      - run: npm run prerender -- --routes /${{ github.event.client_payload.username }}
