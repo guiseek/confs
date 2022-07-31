@@ -1,4 +1,4 @@
-import { of, Subject } from 'rxjs';
+import { catchError, map, of, Subject } from 'rxjs';
 
 import { TicketService } from './ticket.service';
 import { GithubUser } from '../../shared';
@@ -9,14 +9,25 @@ export class TicketMockService implements TicketService {
   readonly githubUser$ = this._githubUser.asObservable();
 
   getGithubUser(username: string) {
-    const githubUser = githubApi.find(
-      (user) => user.login.toLowerCase() === username.toLowerCase()
+    const findUsers = (username: string) => (users: GithubUser[]) => {
+      return users.find(
+        (user) => user.login.toLowerCase() === username.toLowerCase()
+      );
+    };
+
+    const catchUser = (user?: GithubUser) => {
+      if (!user) {
+        throw `${username} not found`;
+      }
+      return user;
+    };
+
+    return of(githubApi).pipe(
+      map(findUsers(username)),
+      map(catchUser),
+      catchError((err) => {
+        throw `User ${err.message}`;
+      })
     );
-
-    if (!githubUser) {
-      throw new Error(`User ${username} not found`);
-    }
-
-    return of(githubUser);
   }
 }
