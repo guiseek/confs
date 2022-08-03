@@ -30,15 +30,13 @@ describe('TicketFacade', () => {
   it('should return null user', () => {
     jest.spyOn(facade.githubUser$, 'subscribe');
 
-    const $githubUser = facade.githubUser$
+    const { unsubscribe } = facade.githubUser$
       .pipe(
         catchError((err, caught) => {
           expect(err).toThrow('User wrong-user not found');
           return caught;
         })
       )
-      .subscribe(() => {
-        $githubUser.unsubscribe();
-      });
+      .subscribe(() => unsubscribe());
   });
 });

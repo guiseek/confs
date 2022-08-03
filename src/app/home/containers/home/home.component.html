@@ -8,7 +8,14 @@
   <form>
     <h1>Conferência anual dos desenvolvedores</h1>
     <h2>Faça porte da comunidade neste evento</h2>
+
+    <fieldset
+      app-subscribe
+      (valueChange)="emailChanges($event)"
+      (formSubmit)="emailChanges($event)"
+    ></fieldset>
   </form>
   <section>
+    <app-ticket [ticketUser]="facade.githubUser$ | async"></app-ticket>
   </section>
 </main>
